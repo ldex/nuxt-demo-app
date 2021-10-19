@@ -6,7 +6,6 @@
 
 <script>
 export default {
-  layout: 'big',
   head() {
     return {
       title: 'Nuxt Store',

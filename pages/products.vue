@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Products</h1>
+    <h2>Products</h2>
     <ul class="products">
       <nuxt-link
         tag="li"

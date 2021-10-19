@@ -30,6 +30,7 @@
 
 <script>
 export default {
+  layout: 'bottom-menu',
   head() {
     return {
       title: this.product.name,
