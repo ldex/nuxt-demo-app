@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>{{ title }}</h2>
     <p>Welcome to our store!</p>
   </div>
 </template>
@@ -9,6 +10,11 @@ export default {
   head() {
     return {
       title: 'Nuxt Store',
+    };
+  },
+  data() {
+    return {
+      title: 'Products',
     };
   },
 };

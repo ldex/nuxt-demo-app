@@ -13,7 +13,7 @@
     <ul class="products">
       <nuxt-link
         tag="li"
-        v-for="product in products"
+        v-for="product in sortedFilteredPaginatedProducts"
         :to="{ name: 'product-id', params: { id: product.id } }"
         :key="product.id"
       >

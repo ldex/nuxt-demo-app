@@ -43,7 +43,7 @@ export default {
     };
   },
   asyncData(context) {
-    this.loading = true;
+    context.loading = true;
     const id = context.params.id;
     return context.$axios
       .get('https://storerestservice.azurewebsites.net/api/products/' + id)
@@ -53,9 +53,9 @@ export default {
         };
       })
       .catch((error) => {
-        this.error = error;
+        context.error = error;
       })
-      .finally(() => (this.loading = false));
+      .finally(() => (context.loading = false));
   },
 };
 </script>
