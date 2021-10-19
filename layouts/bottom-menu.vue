@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Vue Store</h1>
+    <h1>Nuxt Store</h1>
     <nuxt />
     <nav>
       <nuxt-link to="/">Home</nuxt-link>
