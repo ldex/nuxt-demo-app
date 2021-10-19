@@ -18,7 +18,6 @@
 
 <script>
 export default {
-  layout: 'big',
   head() {
     return {
       title: 'Products Page',

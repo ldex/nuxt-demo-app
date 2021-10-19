@@ -1,5 +1,18 @@
 <template>
   <div>
-    <h3>Home</h3>
+    <p>Welcome to our store!</p>
   </div>
 </template>
+
+<script>
+export default {
+  layout: 'big',
+  head() {
+    return {
+      title: 'Nuxt Store',
+    };
+  },
+};
+</script>
+
+<style></style>

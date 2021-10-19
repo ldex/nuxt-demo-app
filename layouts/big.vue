@@ -6,6 +6,9 @@
       <nuxt-link to="/products">Products</nuxt-link>
     </nav>
     <nuxt />
-    <footer>Copyright Vue 2021</footer>
+    <footer>
+      <hr />
+      Copyright Vue Academy 2021
+    </footer>
   </div>
 </template>
